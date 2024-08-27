@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <TableRow android:background="#4CAF50">
+
+            <TextView
+                android:layout_colum="1"
+                android:padding="3dip"
+                android:text="Buka"/>
+            <TextView
+                android:layout_gravity="right"
+                android:padding="3dip"
+                android:text="ctrl+o"/>
+
+        </TableRow>
+        <TableRow android:background="#4CAF50">
+
+            <TextView
+                android:layout_colum="1"
+                android:padding="3dip"
+                android:text="Simpan"/>
+            <TextView
+                android:layout_gravity="right"
+                android:padding="3dip"
+                android:text="ctrl+s"/>
+
+        </TableRow>
+        /TableRow>
+        <TableRow android:background="#4CAF50">
+
+            <TextView
+                android:layout_colum="1"
+                android:padding="3dip"
+                android:text="Print"/>
+            <TextView
+                android:layout_gravity="right"
+                android:padding="3dip"
+                android:text="ctrl+p"/>
+
+        </TableRow>
+        /TableRow>
+        <TableRow android:background="#4CAF50">
+
+            <TextView
+                android:layout_colum="1"
+                android:padding="3dip"
+                android:text="Copy"/>
+            <TextView
+                android:layout_gravity="right"
+                android:padding="3dip"
+                android:text="ctrl+c"/>
+
+        </TableRow>
+        <TableRow android:background="#4CAF50">
+
+            <TextView
+                android:layout_colum="1"
+                android:padding="3dip"
+                android:text="Paste"/>
+            <TextView
+                android:layout_gravity="right"
+                android:padding="3dip"
+                android:text="ctrl+v"/>
+
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
